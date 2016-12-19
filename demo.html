@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>
+        Angularjs UI-Grid Sorting Example
+    </title>
+    <script src="scripts/angular.js"></script>
+    <script src="http://ui-grid.info/release/ui-grid.js"></script>
+    <link rel="stylesheet" href="http://ui-grid.info/release/ui-grid.css" type="text/css">
+    <script src="scripts/gridapp.js"></script>
+
+
+    <style type="text/css">
+        .myGrid {
+            width: 500px;
+            height: 230px;
+        }
+    </style>
+</head>
+<body ng-app="MyApp">
+<h2>AngularJS UI Grid Sorting Example</h2>
+<div ng-controller="UIController">
+    <div ui-grid="gridOptions1"  ui-grid-pagination class="grid"></div>
+</div>
+</body>
+</html>
